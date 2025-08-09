@@ -5,10 +5,7 @@ const Layout = (props) => {
   return (
     <>
       <Header />
-      <main>
-        <h2>ertert</h2>
 
-      </main>
       <Footer />
     </>
   )
