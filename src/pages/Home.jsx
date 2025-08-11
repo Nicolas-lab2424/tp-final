@@ -5,7 +5,14 @@ const Home = () => {
   return (
 
     <Layout>
-      <h1>Hola desde el Home, n</h1>
+      <section>
+        <h1>Bienvenido a nuestra tienda!</h1>
+        <p>Descubri todo lo nuevo en ....</p>
+      </section>
+      <section>
+        <h2>Porque elegirnos??</h2>
+        <p>Entregamos los produtos en menos de 24 hs</p>
+      </section>
     </Layout>
 
   )
