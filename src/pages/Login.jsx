@@ -5,7 +5,32 @@ const Login = () => {
   return (
 
     <Layout>
-      <h1>Hola desde el Home, npopo</h1>
+      <div>
+        <h1>Iniciar Sesión</h1>
+        <form>
+          <div>
+            <label htmlFor="email">Correo electrónico:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ingrese su correo"
+            />
+          </div>
+
+          <div>
+            <label htmlFor="password">Contraseña:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Ingrese su contraseña"
+            />
+          </div>
+
+          <button type="submit">Ingresar</button>
+        </form>
+      </div>
     </Layout>
 
   )
